@@ -13,7 +13,7 @@ mongoose.connect(db, {})
 .catch(err => console.log(err));
 
 app.get('/', (req, res) => res.json({
-    msg: "Hello Amingo!!"
+    msg: "Hello Amingo!!!"
 }));
 
 app.post('/users', (req, res) => {
